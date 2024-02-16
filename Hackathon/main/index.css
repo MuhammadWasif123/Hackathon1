@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf9f9;
+    height: 13vh;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.list_div {
+    display: flex;
+    align-items: center;
+    margin-right: 14rem;
+    /* flex-direction: column; */
+    /* border:2px solid black; */
+
+}
+
+.inner_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+
+}
+
+.inner_list li {
+    font-size: 1.7rem;
+
+
+}
+
+.inner_list li a {
+    text-decoration: none;
+    margin-right: 2.3rem;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    font-weight: 400;
+
+
+}
+
+.icon_div {
+    /* border: 0.2rem solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.8rem;
+    margin-right: 6rem;
+
+
+}
+
+.fa-magnifying-glass {
+    font-size: 2rem;
+    color: #2e2e2e;
+    cursor: pointer;
+
+}
+
+.fa-heart {
+    font-size: 2rem;
+    color: #2e2e2e;
+    cursor: pointer;
+
+}
+
+.fa-cart-shopping {
+    font-size: 2rem;
+    color: #2e2e2e;
+    cursor: pointer;
+
+
+}
+
+.logo_div {
+    margin-left: 1.2rem;
+    cursor: pointer;
+
+
+}
+
+
+/* Products styling */
+.main_cont{
+display:flex;
+/* flex-direction: column; */
+height:50vh;
+/* border:0.2rem solid red; */
+margin-top: 15rem;
+
+
+}
+
+.main_inner1 {
+    /* border: 0.2rem solid yellow; */
+    padding:1.6rem;
+    height: 50vh;
+    width: "100%";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10rem;
+
+
+
+}
+
+.product {
+    /* border: 0.2rem solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem;
+    box-shadow:0 0 20px 3px rgba(0, 0, 0, 0.2);
+    padding: 1.4rem;
+    border-radius:2rem;
+    height:25rem;
+    cursor: pointer;
+}
+
+.product_img{
+width:95%;
+
+
+}
+.product .fa-star-half-stroke{
+
+    color:#c8a760;
+
+
+}
+
+
+.product .head{
+font-size:1.5rem;
+color:#606060;
+
+
+}
+
+.product .fa-star{
+color:#c8a760;
+
+
+}
+
+.product .cost{
+color:#010101;
+font-size:1.6rem;
+font-weight: bold;
+
+}
+
+
+.main_inner2 {
+    /* border: 0.2rem solid yellow; */
+    height: 50vh;
+    width: "100%";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.6rem;
+    gap:6rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10rem;
+
+
+
+}
+
